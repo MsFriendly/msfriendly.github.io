@@ -1,0 +1,102 @@
+a:hover{
+    /* color:lightcyan; */
+    background-color:#b1b1c6;
+    color:rgb(219, 238, 255);
+}
+a {
+    color: whitesmoke;
+}
+div{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header {
+    color: whitesmoke;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 15px
+}
+h1 {
+    padding:8px 20px;
+    font-size:47px;
+}
+nav {
+    background: rgba(136, 147, 196, 0.5);
+    margin-right: 15px;
+    padding: 5px
+}
+nav a{
+    font-size: 20px;
+    margin-right:25px;
+    padding-top:8px;
+    text-decoration: none;
+    padding-bottom:7px
+}
+.intro{
+    /*margin-left:15px;
+    margin-right:15px;*/
+    padding:10px 25px;
+    font-size:25px
+}
+.currSchedule{
+    padding:10px 25px;
+    font-size:20px
+}
+hr.solid{
+    border-top: 3px solid rgb(225, 225, 225);
+    margin: 5px 20px;
+}
+.section-title{
+    padding-left:25px;
+    color:whitesmoke
+}
+.fa {/*icons*/
+    color:rgb(245,245,245,0.6);
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+img {
+    width: 30%;
+    margin: 8px 20px 30px 20px;
+    max-width: 300px;
+    float:left
+}
+.project-desc{
+    float:left;
+    display:block;
+    margin-left:20px;
+    color:whitesmoke
+}
+@media only screen and (max-width:1077px){
+    .tags{
+        margin-bottom:30px;
+        display:inline-block;
+        margin-right:20px;
+        background-color:rgba(182, 203, 231, 0.5);
+        padding:5px
+    }
+    #duckietown{
+        margin-bottom:40px;
+    }
+}
+@media only screen and (min-width:1077px){
+    #wikm-title{
+        padding-top:70px
+    }/*to center text alongside image*/
+    #duckie-title{
+        padding-top:20px
+    }
+    .tags{
+        margin-bottom:150px;
+        display:inline-block;
+        margin-right:20px;
+        background-color:rgba(182, 203, 231, 0.5);
+        padding:5px
+    }
+}
+footer{
+    position: fixed;
+    bottom:0;
+    left:43%
+}
